@@ -3,10 +3,17 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+    <link href="../static/styles.css" th:href="@{/styles.css}" rel="stylesheet" />
     <title>Home</title>
 </head>
 <body>
 <h1>NAVIGATION</h1>
 <p>Congrats!</p>
+
+<p>Now enjoy this hummus!</p>
+<a target="_blank"  th:href="${link}">
+    <img border="0" th:attr="src=@{${imgSrc}}" ></img>
+</a>
+    <img th:attr="src=@{${imgSrc2}}" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </body>
 </html>
