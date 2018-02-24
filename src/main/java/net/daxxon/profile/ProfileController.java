@@ -15,4 +15,9 @@ public class ProfileController {
     return "home";
   }
 
+  @RequestMapping("/hummus")
+  public String profile(Model model) {
+    return "profile";
+  }
+
 }

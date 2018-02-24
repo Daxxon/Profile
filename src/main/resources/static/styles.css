@@ -1,3 +1,121 @@
-p {
-  color: blue;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #7a7c7c;
+
+}
+
+.navbar-links {
+  padding: 10px;
+  letter-spacing: .6px;
+  color: aliceblue;
+
+}
+
+.navbar-logo {
+  padding: 10px;
+  flex: 1;
+  letter-spacing: 1.5px;
+  color: white;
+
+}
+
+.links  {
+  color: white;
+}
+
+.links:hover  {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.javaImage {
+  float: right;
+  height: 200px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  height: 250px;
+  box-shadow: 0px 4px 6px 2px lightgrey;
+  border-radius: 50%;
+}
+
+.upper-text {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #4A4E69;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+.center-about {
+  margin-top: 30px;
+}
+
+
+.about {
+  background-color: lightgray;
+  height: 300;
+
+  text-align: center;
+  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+
+}
+
+.wrap-about-text {
+  padding-top: 80px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-text {
+
+  padding-top: 120p;
+  display: inline-block;
+}
+
+.contact .row {
+  width: 250px;
+  display: inline-block;
+}
+
+.contact {
+  height: 300px;
+  text-align: center;
+  margin: 150px;
+}
+
+.contact p  {
+  margin: 5px;
+}
+
+.contact button {
+  margin: -20px;
+  padding: 5px;
+  border-radius: 20%;
+  background-color: lightgray;
+
+}
+
+
+
+.footer {
+  background-color: lightgray;
+  height: 50px;
 }
